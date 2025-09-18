@@ -1,0 +1,30 @@
+React : - js library to use of creation of front end application
+
+requirement :- Js (java script) es6 features 
+
+javascript :- Client side scripting language
+
+compiled & interpreted language 
+
+compiler : sourse code into mechine code 
+intrepreter : mechine code into gui code
+
+compiled lang & interpreted language
+synchronous programming 
+
+synchronous :-  performing tasks line by line every fuction perfrom task in very manner
+asynchronous:- ES6 FEATURE 
+Perform task in ascending order 
+
+ex:- function1 :- 5sec , function2:-4sec
+asynchronous is jumped on direct to function2
+
+
+node js : -Frontend als backend
+
+javascript run way :- inspect
+
+
+node js :- js library 
+browzer have a js engene to run js V8
+
