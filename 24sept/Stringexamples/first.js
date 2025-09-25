@@ -1,7 +1,7 @@
 // String: Seq of char
 // string is primitive datatype 
 
-let str=' It view Solution '
+let str='It View Solution'
 console.log(str); // display 
 console.log(typeof(str)); // check data type of str
 
@@ -39,4 +39,38 @@ console.log(aadharNo.padEnd(12,'#'));
 // str='It view Soluction'
 let result=str.split(" ")
 console.log(result); // split do not change any original string value
+
+// slice function that take given string in some part with starting index and end index and exclude the end index value 
+console.log(str);
+console.log(str.slice(0,5));  // It Vi
+let result1=str.slice(6,9)
+console.log(result1);
+console.log('Original string blow '); 
+console.log(str);
+console.log(str.slice(0,-1));
+console.log(str.slice(-2,-1)); // O
+console.log(str.slice(-3,-4)); // invalid range 
+
+console.log(str);
+console.log(str.substring(0,5)); // It Vi
+console.log(str.substring(0,-1));
+console.log(str.substring(5,-2));
+console.log(str.substring(2,4));
+console.log(str.substring(4,2));
+console.log(str.substring(-2,-3)); // invalid range
+console.log(str.substring(2)); // it goes to end 
+console.log(str.slice(2)); // it also goes to end 
+
+// difference between slice and substring 
+
+
+
+
+
+
+// split :- They split the string in substrin (subpart) with delimiter which is w passed as a parameter
+
+// slice():- slice its take a substring from given string using start index and end index but exclude the value of end index
+
+// subString() :- substrin function also return the substring value from given input string but they don not operate on -ve values of parameter
 
