@@ -1,0 +1,40 @@
+JAVA Script
+
+1) Introduction to JS
+2) Required tools for JS
+3) Way to run JS
+4) variable declaration
+5) difference between var, let and const declaration
+6) different type of scope => global scope, local scope, functional scope, block scope, lexical scope, script scope
+7) How JS code run internally
+8) execution context => global execution context functional execution context
+9) variable hoisting
+10) call stack
+11) Temporal dead zone
+12) Different type of data types in JS
+13) Different type of operator
+14) Difference between null and undefined
+15) strictly equality operator
+16) template literals
+17) data type conversion with examples
+18) way to define a function => function declaration, function expression, anonymous function, arrow function, IIFE
+19) function hoisting
+20) type of function=> higher order function, call back function
+21) lexical scope, closure with examples
+22) string inbuilt functions
+23) study in detail difference between slice and substring function of string
+24) Non Primitive data types=> object
+25) object functions=> freeze, seal , defined property
+26) array => display and study their various methods
+27) How to see the variable address in browser memory
+28) How to make duplicate copy of array object => type of copy=> shallow copy and deep copy
+29) spread operator
+30) Array's loop and function => forof , forin , forEach, map, filter, reduce, some , every,
+31) setTimeout function and their use
+32) How to perform asynchronous JS programming
+33) Inbuilt higher order functions and call back function
+34) explain call stack queue, event loop and web api
+35) study in detail spread operator and rest parameter with example
+36) how to destructure the array, object and in function with examples
+37) use of desructurirng
+38) starting of DOM manipulation
