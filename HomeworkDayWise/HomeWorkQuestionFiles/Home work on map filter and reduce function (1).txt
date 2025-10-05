@@ -1,0 +1,65 @@
+1) Given an array of strings, count the number of times each string appears and return an object with the string as the key and the count as the value.
+const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple'];
+// Expected Output: { apple: 3, banana: 2, orange: 1 }
+
+2) Given an array of numbers, create a new array that contains the squares of each number.
+const numbers = [1, 2, 3, 4, 5];
+
+3) Given an array of numbers, find the product of all the elements in the array.
+const numbers = [1, 2, 3, 4, 5];
+
+4) Given an array of numbers, create a new array that contains the squares of only the odd numbers.
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+5) Given an array of objects representing products with a price property, calculate the total cost of all products after applying a 10% discount.
+const products = [
+{ name: 'Product 1', price: 100 },
+{ name: 'Product 2', price: 200 },
+{ name: 'Product 3', price: 300 }
+];
+
+//Expected Output: 540
+
+
+6) Find Longest Word
+From ["sun", "moon", "stars", "galaxy"], use reduce to find the longest word.
+
+7) Extract Names from Objects
+const users = [
+  { name: "Amit", age: 20 },
+  { name: "Neha", age: 25 },
+  { name: "Raj", age: 30 }
+];
+Filter Adults
+From the above users array, use filter to get people with age >= 25.
+
+8) 
+You are given an array of student records:
+const students = [
+  { name: "Amit", marks: [80, 75, 90] },
+  { name: "Neha", marks: [95, 88, 92] },
+  { name: "Raj", marks: [45, 50, 40] },
+  { name: "Pooja", marks: [70, 72, 68] },
+  { name: "Karan", marks: [30, 35, 28] }
+];
+
+A) Calculate Total Marks
+Use map + reduce to calculate each student’s total marks.
+
+B) Add total and average to Each Student
+
+Use map to return a new array where each student object also has a total and average property.
+Example : { name: "Amit", marks: [80, 75, 90], total: 245, average: 81.6 }
+
+C) Filter Passing Students
+Consider passing if average ≥ 50.
+Use filter to get only the passing students.
+
+D)Class Topper
+Use reduce to find the student with the highest total marks.
+
+E) Class Average Marks
+Use reduce to calculate the overall class average.
+
+F) List of Student Names (Uppercase)
+Use map to create an array of student names in uppercase.

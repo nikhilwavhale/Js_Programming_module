@@ -1,0 +1,151 @@
+*********Array *********
+
+A.You are given an array of people's ages. 
+
+let ages = [83, 26, 32, 13, 23, 3, 36, 28, 64, 48]
+
+After following each step print the result to the console.
+
+Step 1: Add a person’s age at the end of the array. He is 19 years old.
+
+Step 2: Add another person’s age at the start of the array. She is 22 years old.
+
+Step 3: Replace the age of the person on index 3 with 17.
+
+Step 4: Sort the array in ascending order.
+
+Step 5: Change it in descending order but do not use the sort method again.
+
+Step 6: Now remove the oldest person and the youngest person from the array.
+
+Step 7: Check if the person you added who was 19 years old still exists in the array or not and if he does then also check what his age index is now and 
+print it on the console.
+
+B. 
+let students = ["Amit", "Neha", "Raj", "Pooja", "Kiran"];
+
+// Q1: Add "Suresh" at the end and "Meena" at the beginning.
+// Q2: Remove the first and last student.
+// Q3: Extract ["Raj", "Pooja"] using slice().
+// Q4: Replace "Raj" with "Rohan" using splice().
+// Q5: Merge this array with ["Anita", "Vivek"] using spread operator.
+// Print results after each step.
+
+C. To do List Manager 
+// Start with an empty array todoList = []
+// 1. Add 5 tasks using push().
+// 2. Remove the last task using pop().
+// 3. Add a "Morning Exercise" task at the beginning using unshift().
+// 4. Remove the first task using shift().
+// 5. Replace the 3rd task with "Doctor Appointment" using splice().
+// 6. Extract the first 3 tasks into a new array using slice().
+// 7. Merge the final list with ["Buy Groceries", "Pay Bills"] using spread.
+// Print the array after each operation.
+
+D. Classroom Manager
+let students = ["Amit", "Neha", "Raj", "Pooja", "Kiran"];
+
+// 1. Add "Suresh" at the end and "Meena" at the beginning.
+// 2. Remove the first and last student.
+// 3. Replace "Raj" with "Rohan" using splice().
+// 4. Check if "Pooja" exists → if yes, remove her using indexOf().
+// 5. Extract ["Neha", "Rohan"] into a new array.
+// 6. Merge with another array ["Anita", "Vivek", "Kiran"] using spread.
+// 7. Final challenge: Create a deep clone of the final array using spread + slice, modify one element, and prove that original array is not affected.
+
+
+
+
+
+************* Homework on Deep Copy and Shallow Copy ***************
+A) 
+let person = {
+  name: "Rahul",
+  address: { city: "Pune", pincode: 411001 }
+};
+
+// TODO: Create a shallow copy of person.
+// Then, change only the `city` in the copy.
+// Check whether the original object is also affected.
+
+B) 
+
+let arr = [1, 2, [3, 4], 5];
+
+// TODO: Create a shallow copy of arr.
+// Change the nested element `arr[2][0]`.
+// Observe if original array also changes.
+
+C)
+let company = {
+  name: "TechCorp",
+  departments: {
+    hr: { employees: 5 },
+    dev: { employees: 20 }
+  }
+};
+
+// TODO: Use structuredClone to deep copy `company`.
+// Increase employees in dev department in copied object.
+// Verify that original company object does not change.
+
+D)
+ let product = {
+  id: 101,
+  details: {
+    name: "Laptop",
+    price: 50000,
+    specs: { ram: "16GB", storage: "512GB" }
+  }
+};
+
+// TODO: Write your own recursive function `deepCopy(obj)`
+// that performs a deep copy.
+// Use it to clone `product` and modify the nested specs.
+
+E) 
+let users = [
+  { id: 1, profile: { name: "Amit", age: 25 } },
+  { id: 2, profile: { name: "Sneha", age: 28 } }
+];
+
+// TODO: Create a shallow copy and a deep copy of users.
+// In shallow copy → change age of first user.
+// In deep copy → change name of second user.
+// Observe which changes affect original array.
+
+*************Array Operation and Deep Copy and shallow Copy Mix Examples  ***********************************
+A.
+let employees = [
+  { id: 1, profile: { name: "Amit", dept: "HR" } },
+  { id: 2, profile: { name: "Neha", dept: "IT" } },
+  { id: 3, profile: { name: "Raj", dept: "Finance" } }
+];
+
+// 1. Add a new employee {id:4, profile:{name:"Pooja", dept:"IT"}} using push().
+// 2. Remove the first employee using shift().
+// 3. Check if any employee belongs to "Finance" using filter() + includes().
+// 4. Make a shallow copy of employees and change Neha’s dept to "Admin".
+//    → Does it affect original? Why?
+// 5. Make a deep copy of employees and remove Raj from the deep copy.
+//    → Verify original is safe.
+// 6. Use slice() to copy first two employees into a new array.
+// 7. Merge with another list [{id:5, profile:{name:"Sneha", dept:"HR"}}] using spread.
+
+B. 
+let playlist = [
+  { title: "Song1", artist: "A" },
+  { title: "Song2", artist: "B" },
+  { title: "Song3", artist: "C" }
+];
+
+// 1. Insert "SongX" after "Song2" using splice().
+// 2. Remove the last song using pop().
+// 3. Create a shallow copy of playlist.
+//    → Change artist of "Song1". Observe effect on original.
+// 4. Create a deep copy of playlist.
+//    → Add a new song to deep copy only. Verify original remains same.
+// 5. Extract ["Song1", "Song2"] into a new array using slice().
+// 6. Merge the deep copy with another array 
+//    [{ title: "SongZ", artist: "Z" }] using spread.
+

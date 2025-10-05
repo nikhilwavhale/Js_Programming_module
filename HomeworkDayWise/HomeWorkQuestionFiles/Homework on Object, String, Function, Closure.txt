@@ -1,0 +1,86 @@
+Homework Programming Statement
+Object
+
+Q1. Student Record (Object.freeze)
+
+Create a student object with properties: name, rollNo, and grade.
+
+Freeze the object using Object.freeze().
+
+Try modifying the properties and adding a new one.
+
+Observe whether the changes reflect.
+
+**********************************************************************
+Q2. Car Information (Object.seal)
+
+Create a car object with properties: brand, model, and year.
+
+Seal the object using Object.seal().
+
+Try changing the value of an existing property, deleting a property, and adding a new one.
+
+Print the object to see which changes are applied.
+
+**********************************************************************
+
+Q3. Product with Special Property (Object.defineProperty)
+
+Create a product object with properties: id and name.
+
+Use Object.defineProperty() to add a price property:
+
+writable: false (cannot be changed)
+
+enumerable: true (should be visible in loops)
+
+configurable: false (cannot be deleted or redefined)
+
+Test the behaviour by trying to update and delete the price property.
+
+*************************************************************************************
+Q4. Bank Account Security
+
+Create a bankAccount object with properties: accountNumber, holderName, and balance.
+
+Seal the object to prevent adding or deleting properties.
+
+Add a method deposit(amount) that updates the balance.
+
+Try adding a new property branch and check what happens.
+
+*********************************************************************************
+
+String
+Q1. Write a program that processes a sentence string and performs the following operations:
+
+Take a sentence (e.g., "JavaScript is a powerful programming language").
+
+Use slice() to extract the word "powerful".
+
+Use split() to break the sentence into an array of words.
+
+Use includes() to check if the word "JavaScript" exists in the sentence.
+
+Use indexOf() to find the position of the word "language" in the sentence.
+
+****************************************************************************
+
+Function
+Q1. Create an arrow function called square that takes a number as an argument and returns its square. Use
+the arrow function to calculate the square of a given number and display the result.
+
+Q2. Create an IIFE (Immediately Invoked Function Expression) that calculates the square of a number and
+immediately displays the result.
+
+Q3. Write a JavaScript function called calculateTax that takes an income as an argument and returns the
+amount of tax to be paid. Use a closure to handle different tax rates based on income ranges. Test the
+function with various incomes.
+
+**************************************************************************************************
+Closure
+
+Q1. Write a JavaScript function called outerFunction that takes a parameter and returns an inner function.
+The inner function should access both the parameter of outerFunction and a variable declared within
+outerFunction. Demonstrate how lexical scoping allows the inner function to maintain access to these
+variables even after outerFunction has finished executing.
