@@ -5,7 +5,7 @@ a=20
 console.log('a',a); //20
 function display()
 {
-    console.log('a',a); // undefined
+    console.log('a',a); // undefined (hoisting)
     var a=30
     console.log('a',a); //30
 }
