@@ -10,7 +10,7 @@ console.log(obj);
 //     console.log(obj);
 // }
 
-for (const key in obj) {
+for (const key in obj) { // to access object use forin structure 
     console.log(`key ${key}:${obj[key]}`);    
 }
 
