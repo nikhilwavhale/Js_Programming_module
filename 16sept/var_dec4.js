@@ -3,7 +3,7 @@ console.log(a);//10
 
 function display()
 {
-    console.log(a); // undefined
+    console.log(a); // undefined ( cause hoisting )
     var a=20
     console.log(a); //20 
 }
